@@ -75,3 +75,22 @@ GROUP BY credit_rating;
 -- Is there any correlation between the columns credit_cards_held and number_of_bank_accounts_open? You can analyse this by grouping the data by one of the variables and then aggregating the results of the other column. Visually check if there is a positive correlation or negative correlation or no correlation between the variables.
 SELECT bank_accounts_open, avg(credit_cards_held) FROM credit_card_data
 GROUP BY Bank_Accounts_Open;
+
+-- 11. Your managers are only interested in the customers with the following properties:
+-- Credit rating medium or high
+-- Credit cards held 2 or less
+-- Owns their own home
+-- Household size 3 or more
+-- For the rest of the things, they are not too concerned. Write a simple query to find what are the options available for them? Can you filter the customers who accepted the offers here?
+
+-- 12. Your managers want to find out the list of customers whose average balance is less than the average balance of all the customers in the database. Write a query to show them the list of such customers. You might need to use a subquery for this problem.
+
+-- 13. Since this is something that the senior management is regularly interested in, create a view of the same query.
+
+-- 14. What is the number of people who accepted the offer vs number of people who did not?
+
+-- 15. Your managers are more interested in customers with a credit rating of high or medium. What is the difference in average balances of the customers with high credit card rating and low credit card rating?
+
+-- 16. In the database, which all types of communication (mailer_type) were used and with how many customers?
+
+-- 17. Provide the details of the customer that is the 11th least Q1_balance in your database.
