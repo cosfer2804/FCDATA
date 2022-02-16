@@ -20,3 +20,6 @@ all of quarters columns outliers didn't accept the offer.
 most of them are high income and high or medium credit rating.
 
 We did the plots on python and check on sql the values.
+----------------------
+
+kfold behind. 
