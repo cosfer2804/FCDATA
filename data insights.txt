@@ -1,0 +1,6 @@
+deal with outliers
+include column average_balance
+drop reward_cash back
+drop credit_cards held
+merge in groups based in income_level and credit_rating
+drop household sizes
