@@ -1,4 +1,4 @@
-![alt text](https://github.com/cosfer2804/FCDATA/blob/main/logo.png)
+![alt text](https://github.com/cosfer2804/FCDATA/blob/main/screenshot/logo.png)
 
 # IRONHACK MID THERM PROJECT: BANK CASE STUDY
 
