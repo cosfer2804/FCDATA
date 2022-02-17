@@ -1,5 +1,5 @@
 ![alt text](https://github.com/cosfer2804/FCDATA/blob/main/logo.png)
-# IRONHACK MID THERM PROJECT: 
+IRONHACK MID THERM PROJECT: 
 # BANK CUSTOMER CLASSIFICATION BEHAVIOUR
 
 BY FC DATA (Thiago and Angela)
