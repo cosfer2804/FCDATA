@@ -19,60 +19,34 @@ You are working as a risk analyst with a bank. The bank provides credit card ser
 
 ## Tools and methods
 
-* Trello - using agile method (Kanban)
+### Trello - using agile method (Kanban)
 
-* MySQL
+### Github
 
-* [Tableau] (https://public.tableau.com/app/profile/angela6850/viz/FCdataclassification/Dashboard?publish=yes)
+### MySQL
 
-*  [Python](https://www.python.org/)
-* #### Initial cleaning steps   
-  deal with nulls and drop useless columns
-* #### EDA
-  review columns' distribution, counts and correlation
+### [Tableau](https://public.tableau.com/app/profile/angela6850/viz/FCdataclassification/Dashboard?publish=yes)
+* Visualize and deep dive in the data to find customer behaviour patterns
+
+### [Python](https://www.python.org/)
+* #### Deal with nulls, check duplicates and drop useless columns
+* #### EDA - review columns' distribution, counts and correlation
+* #### Visualizations - Matplotlib and Seaborn to check if there are outliers
 * #### Pre-processing: encode categories and scale numerics
+
 * #### Train, test, split
+
 * #### Define model
   Logistic regression classify
 * #### Check accuracy of our classification model
 * #### Fit the model to more balanced data
-* #### Resampling techniques
-  confusion_matrix and heatmap
+* #### Resampling techniques confusion_matrix and heatmap
 * #### Correlating categories
   Random Under Sampler and Random Over Sampler
 * #### AUC
 
-### 1. Explore the data
-To explore the data, you can use the techniques that have been discussed in class. Some of them include using the describe method, checking null values, using Matplotlib, and Seaborn for developing visualizations.
-
-The data has many categorical and numerical variables. Explore the nature of data for these variables before you start with the data cleaning process and then data pre-processing (scaling numerical variables and encoding categorical variables).
-
-For the target variable (Offer accepted – Yes/No), it is also an important to check the data imbalance ie., the number of people who responded with a yes vs. the number of people who responded with a no.
-
-### 2. Build a Model
+### Model Result
 Use different models to compare the accuracies and find the model that best fits your data. You can use the measures of accuracies that have been discussed in class. Please note that while comparing different models, make sure you use the same measure of accuracy as a benchmark.
 
-### 3. Visualize
-You will also use Tableau to further visually explore the data. You will deep dive in the data for customers who accepted the offer vs the customers who did not and check their characteristics. E.g., we select the Yes level in Offer Accepted and then examine the distribution of accepted offers across the other variables in our data set and similarly for people who did not accept the offer.
+### Insight
 
-## Deliverables
-A slides deck: use slides.com for simple yet effective templates.
-A presentation: Your public presentation should last between 5 and 7 minutes.
-SQL Queries: Access the SQL Questions file and make sure you run these queries using SQL.
-A Tableau Dashboard: Follow the instructions in this file to build in Tableau.
-Python code: Your code will be reviewed. Make sure you follow the best practices explained in class so far.
-Evaluation criteria
-Critical Thinking
-Communication
-Transparency
-Thoroughness
-Rubrics
-These are the rubrics we use to assess your work.
-
-## Tips & Tricks
-Organize yourself (don’t get lost!). Respect deadlines.
-Ask for help but don’t forget that Google is your friend.
-Define a simple approach first. You never know how the data can betray you. :wink:
-Document your work.
-Learn about the problem and what research has been done before you.
-Before making a graph, think about what you want to represent.
