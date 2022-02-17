@@ -1,19 +1,24 @@
 ![alt text](https://github.com/cosfer2804/FCDATA/blob/main/logo.png)
-IRONHACK MID THERM PROJECT: 
-# BANK CUSTOMER CLASSIFICATION BEHAVIOUR
+
+# IRONHACK MID THERM PROJECT: BANK CASE STUDY
 
 BY FC DATA (Thiago and Angela)
 
-## Scenario
-You are working as a risk analyst with a bank. Apart from the other banking and loan services, the bank also provides credit card services that are a very important source of revenue for the bank. The bank wants to understand the demographics and other characteristics of its customers that accept a credit card offer and that do not accept a credit card.
+### Table of Contents
+* Scenario
+* Objective
+* Tools and methods
+* Business insight
 
-Usually, the observational data for these kinds of problems is somewhat limited in that often the company sees only those who respond to an offer. To get around this, the bank designs a focused marketing study, with 18,000 current bank customers. This focused approach allows the bank to know who does and does not respond to the offer, and to use existing demographic data that is already available on each customer.
+## Scenario
+You are working as a risk analyst with a bank. The bank provides credit card services and wants to understand the demographics and other characteristics of its customers that accept a credit card offer and that do not accept a credit card.
 
 ## Objective
 Build a model that will provide insight into why some bank customers accept credit card offers. There are also other potential areas of opportunities that the bank wants to understand from the data.
+### Table of Contents
 
-Your senior management has also posted these other questions that will help them better understand their customers.
-
+### Tools and methods
+* Trello - work on remote using agile method (Kanban)
 ### 1. Explore the data
 To explore the data, you can use the techniques that have been discussed in class. Some of them include using the describe method, checking null values, using Matplotlib, and Seaborn for developing visualizations.
 
