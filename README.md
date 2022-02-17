@@ -45,8 +45,10 @@ You are working as a risk analyst with a bank. The bank provides credit card ser
   Random Under Sampler and Random Over Sampler
 * #### AUC
 
-### Model Result
-Use different models to compare the accuracies and find the model that best fits your data. You can use the measures of accuracies that have been discussed in class. Please note that while comparing different models, make sure you use the same measure of accuracy as a benchmark.
+### Models
+To perform each model, we elaborated a for loop in which we applied Logistic Regression, Random Forest, KNeighbors and Gradient Boosting to the same dataframe. This way it was possible to compare and evaluate which methods obtained the best results.
+
+So after testing nine different models, we decided to give attention to two of them that had a more relevant result. It is worth noting that each model represents two different marketing strategies. 
 
 ### Insight
 * We have the most offer accepted during Q2 and Q3.
