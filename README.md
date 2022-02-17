@@ -1,6 +1,6 @@
 ![alt text](https://github.com/cosfer2804/FCDATA/blob/main/screenshot/logo.png)
 
-# IRONHACK MID PROJECT - CLASSIFICATION: BANK CASE STUDY
+# IRONHACK MID PROJECT - CLASSIFICATION BANK CASE STUDY
 
 BY FC DATA (Thiago and Angela)
 
