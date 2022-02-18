@@ -34,7 +34,7 @@ MySQL is a relational database management system (RDBMS) developed by Oracle tha
 We used SQL to perform an initial exploratory analysis. We followed the proposed [questions](https://github.com/cosfer2804/FCDATA/blob/main/sql/sql%20analysis.sql) and then performed [random queries](https://github.com/cosfer2804/FCDATA/blob/main/sql/eda_queries.sql).
 
 ### Tableau
-Tableau is a visual analytics engine that makes it easier to create interactive visual analytics in the form of dashboards. The main use of tableau was to explore and understand our data. Check our [dashboard](https://public.tableau.com/app/profile/angela6850/viz/FCdataclassification/Dashboard?publish=yes).
+Tableau is a visual analytics engine that makes it easier to create interactive visual analytics in the form of dashboards. The main use of tableau was to visualize and deep dive in the data to find customer behaviour patterns. Check our [dashboard](https://public.tableau.com/app/profile/angela6850/viz/FCdataclassification/Dashboard?publish=yes).
 
 ### Python
 We divide the work done in python into two notebooks.
@@ -52,9 +52,8 @@ In the [final model](https://github.com/cosfer2804/FCDATA/blob/main/python/class
 * Define model
 * Check accuracy of our classification model
 * Fit the model to more balanced data
-* Resampling techniques confusion_matrix (heatmap with percentage)
-* Correlating categories with Chi Squared
-* Random Under Sampler and Random Over Sampler
+* Correlating categories with chi squared
+* Fit the model to more balanced data using resampling techniques SMOTE and Tomelink and visualize with confusion_matrix and heatmap
 
 ### Models
 To perform each model, we developed a for loop in which we applied Logistic Regression, Random Forest, KNeighbors and Gradient Boosting to the same dataframe. In this way, it was possible to compare and evaluate which methods obtained the best results.
