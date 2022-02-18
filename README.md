@@ -36,8 +36,7 @@ You are working as a risk analyst with a bank. The bank provides credit card ser
 
 * #### Train, test, split
 
-* #### Define model
-  Logistic regression classify
+* #### Models Logistic Regression, Random Forest, KNeighbors and Gradient Boosting
 * #### Check accuracy of our classification model
 * #### Fit the model to more balanced data
 * #### Resampling techniques confusion_matrix and heatmap
@@ -46,11 +45,10 @@ You are working as a risk analyst with a bank. The bank provides credit card ser
 * #### AUC
 
 ### Models
-### Models
 
-To perform each model, we developed a for loop in which we applied Logistic Regression, Random Forest, KNeighbors and Gradient Boosting to the same dataframe. In this way, it was possible to compare and evaluate which methods obtained the best results.
+To run each model, We developed a for loop function that apply Logistic Regression, Random Forest, KNeighbors and Gradient Boosting to the same dataframe allowing us to compare and evaluate which methods had the best results.
 
-So after testing nine different models, we decided to give attention to two of them that had a more relevant result. It is worth noting that each model represents two different marketing strategies. 
+After testing nine different models, we selected the two following models. It is worth noting that each model represents two different marketing strategies. 
 
 #### Model 1 - KNeighbors (using SMOTE for resampling)
 Despite achieving only 69.6% accuracy, this model is the most ideal for implementing a marketing strategy that will focus on potential customers without losing those who have already accepted the offer. 
