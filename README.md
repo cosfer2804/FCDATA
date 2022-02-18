@@ -40,23 +40,20 @@ Tableau is a visual analytics engine that makes it easier to create interactive 
 We divide the work done in python into two notebooks.
 In the [classification_eda](https://github.com/cosfer2804/FCDATA/blob/main/python/classification_eda.ipynb) we did the cleaning steps:
 * standardize headers name;
+* EDA - review columns' distribution, counts and correlation
 * check and fill the nulls;
 * check duplicates;
-* visualization: scatterplot, boxplot, histograms and correlation matrix;
-* get_dummies: convert the categorical variables in numerical;
+* visualizations - Matplotlib and Seaborn to check if there are outliers
+* Pre-processing: encode categories and scale numerics
 * export the cleaned dataframe to a new csv.
 
-In the [final model](https://github.com/cosfer2804/FCDATA/blob/main/python/classification_final.ipynb) notebook we did some cleaning and then made 9 different classification models
-* Deal with nulls, check duplicates and drop useless columns
-* EDA - review columns' distribution, counts and correlation
-* Visualizations - Matplotlib and Seaborn to check if there are outliers
-* Pre-processing: encode categories and scale numerics
+In the [final model](https://github.com/cosfer2804/FCDATA/blob/main/python/classification_final.ipynb) notebook we did some cleaning and then run 9 different classification models:
 * Train, test, split
 * Define model
 * Check accuracy of our classification model
 * Fit the model to more balanced data
-* Resampling techniques confusion_matrix and heatmap
-* Correlating categories
+* Resampling techniques confusion_matrix (heatmap with percentage)
+* Correlating categories with Chi Squared
 * Random Under Sampler and Random Over Sampler
 
 ### Models
