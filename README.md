@@ -75,7 +75,6 @@ Model 2 had 87.2% accuracy, but in relation to the confusion matrix the efficien
 <img width="400" alt="Random Forest" src="https://github.com/cosfer2804/FCDATA/blob/main/screenshot/randomforest_best2.png">
 
 ### Insights
-* We have the most offer accepted during Q2 and Q3.
 * The average balance increases esponentially from Q1 to Q3 in category A, while it  remains invariate in category D. Categories B and C have a linear average balance   grow from Q1 to Q3 and drop from Q3 to Q4.
 * 62% of the clients that accepted the offer has low credit rating, followed by 26%  with medium creadit rating and only 12% with high credit rating.
 * It seems that there is a preference in receiving the offer through postcard in the group who accepted the offer.
