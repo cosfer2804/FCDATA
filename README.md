@@ -19,7 +19,8 @@ You are working as a risk analyst with a bank. The bank provides credit card ser
 
 ## Tools and methods
 
-### [Trello](https://trello.com/b/I8S3Yl00/fc-data) - using agile method (Kanban)
+### [Trello](https://trello.com/b/I8S3Yl00/fc-data) 
+* Using agile method (Kanban)
 
 ### [Github](https://github.com/cosfer2804/FCDATA)
 
@@ -29,20 +30,12 @@ You are working as a risk analyst with a bank. The bank provides credit card ser
 * Visualize and deep dive in the data to find customer behaviour patterns
 
 ### [Python](https://www.python.org/)
-* #### Deal with nulls, check duplicates and drop useless columns
-* #### EDA - review columns' distribution, counts and correlation
-* #### Visualizations - Matplotlib and Seaborn to check if there are outliers
-* #### Pre-processing: encode categories and scale numerics
-
-* #### Train, test, split
-
+* #### EDA 
+* #### Visualizations - Seaborn to check data distribution and outliers
+* #### Pre-processing: encode categories and scale numerics with dummies
+* #### Correlating categories using Chi square
 * #### Models Logistic Regression, Random Forest, KNeighbors and Gradient Boosting
-* #### Check accuracy of our classification model
-* #### Fit the model to more balanced data
-* #### Resampling techniques confusion_matrix and heatmap
-* #### Correlating categories
-  Random Under Sampler and Random Over Sampler
-* #### AUC
+* #### Fit the model to more balanced data using resampling techniques Smote and Tomelink and visualize with confusion_matrix and heatmap
 
 ### Models
 
