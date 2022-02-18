@@ -19,15 +19,13 @@ You are working as a risk analyst with a bank. The bank provides credit card ser
 
 ## Tools and methods
 
-### [Trello](https://trello.com/b/I8S3Yl00/fc-data) 
-* Using agile method (Kanban)
+### [Trello](https://trello.com/b/I8S3Yl00/fc-data)
 
 ### [Github](https://github.com/cosfer2804/FCDATA)
 
 ### [MySQL](https://github.com/cosfer2804/FCDATA/blob/main/sql/eda_queries.sql)
 
 ### [Tableau](https://public.tableau.com/app/profile/angela6850/viz/FCdataclassification/Dashboard?publish=yes)
-* Visualize and deep dive in the data to find customer behaviour patterns
 
 ### [Python](https://www.python.org/)
 * #### EDA 
