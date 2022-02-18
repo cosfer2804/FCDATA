@@ -24,7 +24,7 @@ You are working as a risk analyst with a bank. The bank provides credit card ser
 
 ### [Github](https://github.com/cosfer2804/FCDATA)
 
-### MySQL
+### [MySQL](https://github.com/cosfer2804/FCDATA/blob/main/sql/eda_queries.sql)
 
 ### [Tableau](https://public.tableau.com/app/profile/angela6850/viz/FCdataclassification/Dashboard?publish=yes)
 * Visualize and deep dive in the data to find customer behaviour patterns
