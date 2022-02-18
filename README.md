@@ -19,9 +19,9 @@ You are working as a risk analyst with a bank. The bank provides credit card ser
 
 ## Tools and methods
 
-### Trello - using agile method (Kanban)
+### [Trello](https://trello.com/b/I8S3Yl00/fc-data) - using agile method (Kanban)
 
-### Github
+### [Github](https://github.com/cosfer2804/FCDATA)
 
 ### MySQL
 
